@@ -24,6 +24,7 @@ html, body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box; /* keep padding inside the screen width */
 }
 
 .logo {
@@ -69,11 +70,16 @@ html, body {
     flex: 1;
 }
 
-/* زر الـ CV (على اليمين) */
-.navbar-links .nav-btn {
+/* أزرار الـ CV (على اليمين) */
+.nav-cv {
     margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.navbar-links .nav-btn {
     color: #000000;
-    padding: 10px 20px;
+    padding: 10px 14px;
     border-radius: 8px;
     font-weight: bold;
     text-decoration: none;
@@ -187,10 +193,18 @@ html, body {
         background-color: #d0d0d0; /* Darker on tap */
     }
 
-    .navbar-links .nav-btn {
+    .nav-cv {
         margin: 20px auto 10px; /* Auto margins for centering */
         width: 80%; /* Match link width for consistency */
-        padding: 12px 0 12px 31%; /* Adjusted padding for better fit */
+        gap: 10px;
+    }
+
+    .navbar-links .nav-btn {
+        flex: 1; /* EN and FR buttons share the row equally */
+        width: auto;
+        margin: 0;
+        padding: 12px 0;
+        justify-content: center;
         transition: all 0.2s ease;
         opacity: 0;
         transform: translateY(10px);
@@ -254,6 +268,7 @@ html, body {
 .intro-text {
     font-size: 3.6rem;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .small-text-intro {
