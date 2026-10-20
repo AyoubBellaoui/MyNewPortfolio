@@ -21,6 +21,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 100%; /* fill the navbar so the logo and burger are vertically centered */
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -353,6 +354,9 @@ html, body {
     background: linear-gradient(to bottom, #0A0A0A, #000000);
     color: #fff;
     padding: 100px 20px;
+    /* AOS fade-left starts the text 100px off to the right; clip it so phones don't get a horizontal scroll */
+    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .section-title {
