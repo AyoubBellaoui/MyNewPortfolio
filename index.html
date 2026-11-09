@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub Bellaoui – Backend Developer (PHP / Laravel)</title>
+    <meta name="description"
+        content="Ayoub Bellaoui, backend developer in Casablanca specializing in PHP/Laravel, MySQL and REST APIs. Projects, experience and CV (EN/FR).">
+    <meta property="og:title" content="Ayoub Bellaoui – Backend Developer (PHP / Laravel)">
+    <meta property="og:description"
+        content="Backend developer specializing in PHP/Laravel, MySQL and REST APIs. Projects, experience and CV (EN/FR).">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="static/style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- AOS.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#main" class="logo">Ayoub</a>
+
+                <!-- Burger icon on the right -->
+                <button class="burger" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Links + Download CV -->
+                <div class="navbar-links">
+                    <div class="nav-center">
+                        <a href="#main">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="nav-cv">
+                        <span class="nav-cv-label"><i class="fas fa-download"></i> CV</span>
+                        <a href="./docs/Ayoub_Bellaoui_CV_EN.pdf" download class="nav-btn"
+                            title="Download CV in English">EN</a>
+                        <a href="./docs/Ayoub_Bellaoui_CV_FR.pdf" download class="nav-btn"
+                            title="Télécharger le CV en français">FR</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="main-section" id="main">
+        <div class="hero-content">
+            <p class="hero-badge" data-aos="fade-up">
+                <span class="hero-dot"></span> Available for work · Casablanca, Morocco
+            </p>
+
+            <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">Ayoub Bellaoui</h1>
+
+            <p class="hero-role" data-aos="fade-up" data-aos-delay="200">
+                <span>Backend Developer</span> · PHP&nbsp;/&nbsp;Laravel · REST&nbsp;APIs
+            </p>
+
+            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="300">
+                I build REST APIs and business applications with Laravel and MySQL, from database design to
+                production.
+            </p>
+
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+                <a href="#projects" class="hero-btn primary">
+                    <i class="fas fa-briefcase"></i> View My Work
+                </a>
+                <a href="#contact" class="hero-btn secondary">
+                    <i class="fas fa-paper-plane"></i> Contact Me
+                </a>
+            </div>
+
+            <div class="hero-socials" data-aos="fade-up" data-aos-delay="500">
+                <a href="https://github.com/AyoubBellaoui" target="_blank" rel="noopener" aria-label="GitHub"
+                    title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayoub-bellaoui-8a1522175" target="_blank" rel="noopener"
+                    aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:ayoubbellaoui@yahoo.com" aria-label="Email" title="Email"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <a href="#about" class="hero-scroll" aria-label="Scroll to About Me"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <section class="aboutme-section" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+
+            <div class="about-wrapper">
+                <!-- Profile Image -->
+                <div class="about-image" data-aos="zoom-in">
+                    <img src="./media/1742619740008.jpg" alt="Ayoub Bellaoui">
+                </div>
+
+                <!-- Text Content -->
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Hello, I'm <span>Ayoub Bellaoui</span></h3>
+                    <p class="about-intro">
+                        I'm a <strong>backend developer</strong> specializing in <strong>PHP/Laravel and
+                        MySQL</strong>, focused on <span>REST API design and business logic</span>. During my
+                        final-year internship, I delivered an ERP to production with an AI-assisted, spec-driven
+                        workflow: writing the specifications, then reviewing and validating the generated code.
+                    </p>
+
+                    <p class="about-details">
+                        Beyond Laravel, I've built APIs with <strong>Node.js and Express.js</strong>, and I handle the
+                        front end with <strong>JavaScript, TypeScript, React.js and Tailwind CSS</strong> when a
+                        project needs it. My goal is always to deliver fast, secure and maintainable applications.
+                    </p>
+
+                    <!-- Quick Highlights -->
+                    <ul class="about-highlights">
+                        <li><i class="fas fa-check-circle"></i> REST API design & business logic with Laravel</li>
+                        <li><i class="fas fa-check-circle"></i> ERP delivered to production during my internship</li>
+                        <li><i class="fas fa-check-circle"></i> Database design with MySQL & SQL Server (UML, MERISE)
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> AI-assisted development with Claude Code</li>
+                        <li><i class="fas fa-check-circle"></i> Full-stack apps with Laravel, Tailwind CSS & React.js
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> Spec-driven workflow: specifications, code review,
+                            technical docs</li>
+                    </ul>
+
+
+                    <!-- Call to Action -->
+                    <a href="#projects" class="about-btn">
+                        <i class="fas fa-briefcase"></i> View My Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------- Experience -------------------------------------------------------->
+
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience & Education</h2>
+
+            <h3 class="timeline-title" data-aos="fade-up"><i class="fas fa-briefcase"></i> Work Experience</h3>
+            <div class="timeline">
+                <!-- INVOLYS -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Full-Stack Developer <span>· Final-year internship</span></h4>
+                        <span class="timeline-date">Feb – Jun 2026</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building"></i> INVOLYS · Casablanca (Hybrid)</p>
+                    <ul>
+                        <li>Designed and delivered <strong>GestionCo</strong>, a web ERP for SMEs (sales, purchasing,
+                            inventory, PDF/email invoicing, financial reports, role management), through to production
+                        </li>
+                        <li>Set up an AI-assisted, spec-driven workflow with Claude Code: module-by-module
+                            specifications, code review and validation, automated technical documentation</li>
+                    </ul>
+                </div>
+
+                <!-- NARSA -->
+                <div class="timeline-item muted" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Examiner <span>· Full-time</span></h4>
+                        <span class="timeline-date">Dec 2022 – Feb 2025</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building"></i> NARSA · Rabat</p>
+                    <ul>
+                        <li>Non-IT role (driving license examinations) while transitioning into web development</li>
+                    </ul>
+                </div>
+
+                <!-- IRCAM -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Web Developer <span>· Internship</span></h4>
+                        <span class="timeline-date">Apr – Jul 2022</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building"></i> Royal Institute of Amazigh Culture ·
+                        Rabat</p>
+                    <ul>
+                        <li>Built a contract management system in PHP & MySQL</li>
+                        <li>Designed the database schema and CRUD operations</li>
+                    </ul>
+                </div>
+
+                <!-- AMAL SOFT -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Web Developer <span>· Internship</span></h4>
+                        <span class="timeline-date">Sep – Dec 2021</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building"></i> AMAL SOFT · Casablanca</p>
+                    <ul>
+                        <li>Built a sales and point-of-sale web application (PHP & MySQL)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="timeline-title" data-aos="fade-up"><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Professional Bachelor's Degree in Web & Mobile Development</h4>
+                        <span class="timeline-date">2025 – 2026</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building-columns"></i> Cnam / IFIAG · Casablanca ·
+                        Degree obtained</p>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-header">
+                        <h4>Specialized Technician Diploma in Software Development</h4>
+                        <span class="timeline-date">2018 – 2020</span>
+                    </div>
+                    <p class="timeline-place"><i class="fas fa-building-columns"></i> Institute of Applied Technology ·
+                        Larache</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------------------- Skills ---------------------------------------------------------->
+
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <!-- Backend -->
+                <div class="skill-group" data-aos="fade-up">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul class="skill-tags">
+                        <li class="core">PHP</li>
+                        <li class="core">Laravel</li>
+                        <li class="core">REST APIs</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+                <!-- Frontend -->
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-display"></i> Frontend</h3>
+                    <ul class="skill-tags">
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <!-- Databases -->
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul class="skill-tags">
+                        <li class="core">MySQL</li>
+                        <li>MariaDB</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <!-- Familiar with -->
+                <div class="skill-group" data-aos="fade-up">
+                    <h3><i class="fas fa-layer-group"></i> Also Familiar With</h3>
+                    <ul class="skill-tags">
+                        <li>React Native</li>
+                        <li>WordPress</li>
+                        <li>WooCommerce</li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-screwdriver-wrench"></i> Tools</h3>
+                    <ul class="skill-tags">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Composer</li>
+                        <li>npm</li>
+                        <li>Laragon</li>
+                        <li>XAMPP</li>
+                        <li>Figma</li>
+                        <li>Linux (Ubuntu)</li>
+                    </ul>
+                </div>
+                <!-- Modeling & AI -->
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-diagram-project"></i> Modeling & AI-Assisted Dev</h3>
+                    <ul class="skill-tags">
+                        <li>UML</li>
+                        <li>MERISE</li>
+                        <li>PowerDesigner</li>
+                        <li>Claude Code</li>
+                        <li>Specification writing</li>
+                        <li>Code review</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------------------- Projects -------------------------------------------------------------->
+
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./media/Screenshot 2026-07-06 at 08-35-26 ClinicPro – Staff Médical.png" alt="ClinicPro App">
+                <div class="project-info">
+                    <h3>ClinicPro</h3>
+                    <p>
+                        A full-stack clinic management platform that digitizes day-to-day operations for medical
+                        practices: patient records, appointment scheduling, and consultation follow-up. Built on a
+                        Laravel backend with a relational MySQL schema I designed myself, and a responsive Tailwind CSS interface.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AyoubBellaoui/clinique-medicale-app" target="_blank"
+                            class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                        <a href="https://drive.google.com/file/d/165O2P-fE6x_MqEP-aipFX8qEbLLjFiri/view?usp=sharing"
+                            target="_blank"
+                            class="project-btn demo-btn">
+                            <i class="fas fa-play-circle"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./media/Screenshot 2026-08-23 at 06-38-36 FrontendAngular.png" alt="GestionCo ERP">
+                <div class="project-info">
+                    <h3>GestionCo ERP</h3>
+                    <p>A commercial management ERP for SMEs: sales, purchases, stock, invoicing, payments and financial
+                        reports. Developed with AI through a
+                        spec-driven methodology — production-ready features automated from written specifications.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/AyoubBellaoui/GestionCo" target="_blank"
+                            class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                        <a href="https://drive.google.com/file/d/1723D2D0g7En_iUgBWNsgHz-vEFn4WMAE/view?usp=sharing"
+                            target="_blank"
+                            class="project-btn demo-btn">
+                            <i class="fas fa-play-circle"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./media/Screenshot 2026-04-02 at 05-50-01 facebook-clone-app.png"
+                        alt="Facebook Clone App">
+                    <div class="project-info">
+                        <h3>Facebook Clone App</h3>
+                        <p>A Clone Application of Facebook built with React19 + Vite </p>
+                        <div class="project-links">
+                            <a href="https://github.com/AyoubBellaoui/facebook-clone-app" target="_blank"
+                                class="project-btn code-btn">
+                                <i class="fas fa-code"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 4 -->
+            <div class="project-card" data-aos="fade-up">
+                    <img src="./media/project1.png" alt="E-commerce Website">
+                    <div class="project-info">
+                        <h3>E-commerce landing page</h3>
+                        <p>A modern online shop with product page, shopping cart, and responsive design.</p>
+                        <div class="project-links">
+                            <a href="https://cerulean-seahorse-b20076.netlify.app/"
+                                target="_blank" class="project-btn demo-btn">
+                                <i class="fas fa-globe"></i> Demo
+                            </a>
+                            <a href="https://github.com/AyoubBellaoui/Ziyachic" target="_blank"
+                                class="project-btn code-btn">
+                                <i class="fas fa-code"></i> Code
+                            </a>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./media/deluxeapp.jpg" alt="Deluxe App">
+                <div class="project-info">
+                    <h3>DELUXE APP</h3>
+                    <p>A Web application for sales and cash management for a retail store built with PHP8 & MySQL </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AyoubBellaoui/DELUXEApp" target="_blank"
+                            class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./media/contratmanager.jpg" alt="Task Manager App">
+                <div class="project-info">
+                    <h3>Contract Manager App</h3>
+                    <p>A Contract Management web application built with PHP8 and MySQL</p>
+                    <div class="project-links">
+                        <a href="https://github.com/AyoubBellaoui/Contratmanager" target="_blank"
+                            class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-------------------------------------------------------- Contact me ------------------------------------------------------->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-up">
+                    <h3>Let's work <span>together</span></h3>
+                    <p>I'm open to backend and full-stack opportunities. Have a project, a role or just a question?
+                        Send me a message and I'll get back to you as soon as possible.</p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/ayoub-bellaoui-8a1522175" target="_blank"
+                                rel="noopener" class="contact-item">
+                                <span class="contact-icon"><i class="fab fa-linkedin-in"></i></span>
+                                <span class="contact-item-text"><small>LinkedIn</small>Ayoub Bellaoui</span>
+                                <i class="fas fa-arrow-right contact-arrow"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AyoubBellaoui" target="_blank" rel="noopener"
+                                class="contact-item">
+                                <span class="contact-icon"><i class="fab fa-github"></i></span>
+                                <span class="contact-item-text"><small>GitHub</small>AyoubBellaoui</span>
+                                <i class="fas fa-arrow-right contact-arrow"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="contact-item">
+                                <span class="contact-icon"><i class="fas fa-location-dot"></i></span>
+                                <span class="contact-item-text"><small>Location</small>Casablanca, Morocco</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="contact-cv">
+                        <a href="./docs/Ayoub_Bellaoui_CV_EN.pdf" download class="cv-btn" title="Download CV in English">
+                            <i class="fas fa-download"></i> CV (EN)
+                        </a>
+                        <a href="./docs/Ayoub_Bellaoui_CV_FR.pdf" download class="cv-btn"
+                            title="Télécharger le CV en français">
+                            <i class="fas fa-download"></i> CV (FR)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form (Web3Forms forwards each message to my email) -->
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST"
+                    data-aos="fade-up" data-aos-delay="150">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="subject" placeholder="What's it about?">
+                    </div>
+
+                    <div class="form-field form-field-grow">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="6"
+                            placeholder="Tell me about your project or opportunity..." required></textarea>
+                    </div>
+
+                    <!-- Web3Forms settings (the access key is meant to be public) + spam trap
+                         (bots tick the hidden checkbox, people don't) -->
+                    <input type="hidden" name="access_key" value="8f7404e0-adc3-4ecb-94d1-aa3623c8776a">
+                    <input type="hidden" name="from_name" value="Portfolio contact form">
+                    <input type="checkbox" name="botcheck" class="form-honey" tabindex="-1" autocomplete="off">
+
+                    <button type="submit" class="form-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------------------- footer ---------------------------------------------------->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <!-- Brand / Name -->
+            <div class="footer-brand">
+                <h2>Ayoub Bellaoui</h2>
+                <p>Backend Developer · PHP / Laravel</p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-socials">
+                <a href="https://github.com/AyoubBellaoui" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayoub-bellaoui-8a1522175" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayoub Bellaoui. All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="static/main.js" defer></script>
+    <!-- بعد كل محتوى الصفحة وقبل إغلاق </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // مدة الأنيميشن
+            once: true       // تظهر الأنيميشن مرة واحدة فقط أثناء التمرير
+        });
+    </script>
+</body>
+
+</html>
